@@ -64,6 +64,20 @@ document.getElementById("seconds"));
 			enabled: true
 		}
 	});
+	// accordion
+	$('.why h4').click(function(){
+		$('.why p, .why img').slideUp('200');
+		if($(this).siblings('p').is(':hidden')){
+			$(this).siblings().slideDown('200');
+		}
+	});
+	$('.proposal h4').click(function(){
+		$('.proposal p, .proposal a').slideUp('200');
+		if($(this).siblings('p').is(':hidden')){
+			$(this).siblings().slideDown('200');
+		}
+	});
+
 
 	//mask
 	jQuery(function($){

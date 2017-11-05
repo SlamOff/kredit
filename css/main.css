@@ -355,6 +355,7 @@ header:before {
 	left: 0;
 	background-image: url("../img/header_bg.jpg");
 	background-position: center top;
+	background-repeat: no-repeat;
 }
 header .top_head {
 	height: 104px;
@@ -565,6 +566,7 @@ header .main_btn {
 	background-position: 50% bottom;
 	padding-bottom: 110px;
 	padding-top: 0;
+	/*overflow: hidden;*/
 }
 .open_form h3 {
 	font-size: 3rem;
@@ -616,6 +618,7 @@ header .main_btn {
 .compare {
 	padding-top: 45px;
 	background-image: url("../img/compare_bg.png");
+	overflow: hidden;
 }
 .compare ul li {
 	font-size: 1.8rem;
@@ -709,6 +712,7 @@ header .main_btn {
 	bottom: -67px;
 	left: 166px;
 	margin: 0;
+	max-width: 845px;
 }
 .step button {
 	margin-top: 3rem;
